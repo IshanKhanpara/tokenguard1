@@ -1,0 +1,43 @@
+project_id = "wsfiibentgbnhiuztbgh"
+
+[functions.razorpay-create-subscription]
+verify_jwt = true
+
+[functions.razorpay-cancel-subscription]
+verify_jwt = true
+
+[functions.razorpay-reactivate-subscription]
+verify_jwt = true
+
+[functions.razorpay-change-plan]
+verify_jwt = true
+
+[functions.razorpay-webhook]
+verify_jwt = false
+
+[functions.encrypt-api-key]
+verify_jwt = true
+
+[functions.send-notification]
+verify_jwt = false
+
+[functions.check-usage-limit]
+verify_jwt = false
+
+[functions.record-usage]
+verify_jwt = false
+
+[functions.api-proxy]
+verify_jwt = true
+
+[functions.admin-actions]
+verify_jwt = true
+
+[functions.usage-alert]
+verify_jwt = false
+
+[functions.team-invite]
+verify_jwt = true
+
+[functions.spending-alert]
+verify_jwt = false
